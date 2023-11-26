@@ -1,7 +1,7 @@
 <header class="relative">
     <div class="container">
-        <div class="flex flex-wrap justify-center lg:justify-between py-9 md:py-20 gap-y-72 lg:gap-y-5">
-            <div class="w-full md:w-10/12 lg:w-7/12">
+        <div class="flex flex-wrap justify-center xl:justify-between py-9 md:py-20 gap-y-72 xl:gap-y-5">
+            <div class="w-full md:w-10/12 xl:w-7/12">
                 <h1 class="text-white text-34 md:text-6xl lg:text-85 uppercase font-extrabold leading-none">
                     Get Fast,
                 </h1>
@@ -9,13 +9,13 @@
                     Easy Finance
                 </h1>
             </div>
-            <div class="w-full md:w-7/12 lg:w-4/12 relative z-50 bg-white rounded-lg shadow-xl">
+            <div class="w-full md:w-7/12 xl:w-4/12 relative z-50 bg-white rounded-lg shadow-xl">
                 <iframe src="https://vroom.driveiq.com.au/iframe/ WIDGET_ID? PARAMATERS" style="width: 100%; border-radius: 8px; height: 100%; min-height: 760px;"></iframe>
             </div>
         </div>
     </div>
     <?= renderImg('honda-sm.png', 'lib', 'md:hidden absolute top-28 w-full') ?>
-    <?= renderImg('honda.png', 'lib', 'hidden md:block absolute top-40') ?>
+    <?= renderImg('honda.png', 'lib', 'hidden md:block absolute lg:top-48 xl:top-40') ?>
 </header>
 
 <section class="preapproval py-14 md:py-16 lg:py-24 px-3 md:px-0">
@@ -25,7 +25,7 @@
                 <?= renderImg('iphone.png', 'lib') ?>
             </div>
 
-            <div class="md:w-10/12 lg:w-5/12 order-1 lg:order-2 px-3 md:px-0">
+            <div class="md:w-10/12 lg:w-1/2 xl:w-5/12 order-1 lg:order-2 px-3 md:px-0">
                 <p class="text-2xl md:text-45 leading-none font-bold">Welcome to self-service finance pre-approvals</p>
                 <p class="text-sm md:text-base py-4">
                     Matching you to your most suitable lenders, with personalised quotes, showing your weekly repayments and rates. Once you’ve selected your preferred lending option, you can even complete a full finance application, right here. No need to go anywhere else.
@@ -81,7 +81,7 @@
         <div class="flex flex-wrap gap-y-5 -mx-2 mt-10">
             <div class="w-full lg:w-5/12 px-2">
                 <div class="h-full rounded-10 bg-white text-center flex flex-col items-center">
-                    <div class="py-10 w-10/12 md:w-1/2 mx-auto">
+                    <div class="py-10 w-10/12 xl:w-1/2 mx-auto">
                         <p class="uppercase text-black text-lg md:text-2xl font-bold">Step 01</p>
                         <p class="capitalize text-primary text-2xl md:text-3xl font-bold">Quick Calculator</p>
                         <p class="text-sm pt-2">Instantly calculate your loan options with our smart online calculator</p>
@@ -105,7 +105,7 @@
             </div>
             <div class="w-full lg:w-7/12 px-2">
                 <div class="h-full rounded-10 bg-white flex flex-wrap md:flex-nowrap md:flex-row justify">
-                    <div class="py-5 px-10 w-full md:w-1/2 flex flex-col justify-center text-center md:text-start">
+                    <div class="py-5 px-10 lg:px-5 xl:px-10 w-full md:w-1/2 flex flex-col justify-center text-center md:text-start">
                         <p class="uppercase text-black text-lg md:text-2xl font-bold">Step 03</p>
                         <p class="capitalize text-primary text-2xl md:text-3xl font-bold">Instant Pre-Approval</p>
                         <p class="text-sm pt-2">Our powerful lender matching engine will match you with suitable lenders with <b>95% accuracy.</b></p>
@@ -172,14 +172,14 @@
 
 <section class="why-us py-14 md:py-20 lg:py-28">
     <div class="container">
-        <p class="text-white text-center leading-none text-42 md:text-6xl lg:text-85 font-bold uppercase">Why use our finance?</p>
+        <p class="text-white text-center leading-none text-42 md:text-6xl xl:text-85 font-bold uppercase">Why use our finance?</p>
     </div>
 
-    <?= renderImg('subaru.png', 'lib', 'lg:hidden') ?>
+    <?= renderImg('subaru.png', 'lib', 'xl:hidden') ?>
 
-    <div class="relative lg:mt-24">
-        <div class="container">
-            <div class="lg:w-1/2 flex flex-col gap-y-4">
+    <div class="relative xl:mt-24">
+        <div class="container relative z-50">
+            <div class="xl:w-1/2 flex flex-col gap-y-4">
                 <div class="rounded-md bg-white w-full px-5 py-8 md:px-8">
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="36" viewBox="0 0 30 36" fill="none">
                         <path d="M16.2969 11.25H11.7969V20.25H20.7969V15.75H16.2969V11.25Z" fill="#C41733" />
@@ -213,6 +213,6 @@
                 </div>
             </div>
         </div>
-        <?= renderImg('subaru.png', 'lib', 'hidden lg:block absolute right-0 top-0') ?>
+        <?= renderImg('subaru.png', 'lib', 'hidden xl:block absolute z-10 right-0 top-0') ?>
     </div>
 </section>
