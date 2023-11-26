@@ -1,0 +1,15 @@
+header {
+    background: linear-gradient(175deg, #C41733 0 42%, #ffffff 42% 100%);
+
+    @media screen and (max-width: 540px) {
+        background: linear-gradient(175deg, #C41733 0 16%, #ffffff 16% 100%);
+    }
+}
+
+section.why-us {
+    background: linear-gradient(183deg, #C41733 0 42%, #F1EFEF 42% 100%);
+
+    @media screen and (max-width: 540px) {
+        background: linear-gradient(185deg, #C41733 0 20%, #F1EFEF 20% 100%);
+    }
+}

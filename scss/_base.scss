@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@function imgUrl($file, $path: "background"){
+@return url("../images/" + $path + "/" + $file) no-repeat;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    @apply font-montserrat p-0 m-0 overflow-x-hidden;
+}
+
+.container {
+    max-width: 1420px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3e3d3d;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #022444;
+}
