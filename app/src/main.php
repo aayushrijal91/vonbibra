@@ -11,7 +11,7 @@
             </div>
             <div class="w-full md:w-7/12 xl:w-4/12 relative z-50">
                 <div class="w-full h-[760px] flex justify-center items-center">
-                    <iframe src="https://vroom.driveiq.com.au/iframe/M3338?" class="w-[360px] rounded-lg h-fyll min-h-[760px]"></iframe>
+                    <iframe src="https://vroom.driveiq.com.au/iframe/M3338?" class="w-[360px] rounded-lg h-fyll min-h-[760px] shadow-lg"></iframe>
                 </div>
             </div>
         </div>
