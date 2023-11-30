@@ -9,8 +9,10 @@
                     Easy Finance
                 </h1>
             </div>
-            <div class="w-full md:w-7/12 xl:w-4/12 relative z-50 bg-white rounded-lg shadow-xl">
-                <iframe src="https://vroom.driveiq.com.au/iframe/M3338?" style="width: 100%; border-radius: 8px; height: 100%; min-height: 760px;"></iframe>
+            <div class="w-full md:w-7/12 xl:w-4/12 relative z-50">
+                <div class="w-full h-[760px] flex justify-center items-center">
+                    <iframe src="https://vroom.driveiq.com.au/iframe/M3338?" class="w-[360px] rounded-lg h-fyll min-h-[760px]"></iframe>
+                </div>
             </div>
         </div>
         <?= renderImg('honda-sm.png', 'lib', 'md:hidden absolute top-28 w-full') ?>
